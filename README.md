@@ -1,12 +1,12 @@
 <div id="top" align="center">
-<h1>GH Repo Template</h1>
+<h1>rz-breadcrumbs</h1>
 
-<p>Template for new Github repos</p>
+<p>A Web Component for automatic Breadcrumbs</p>
 
-[Report Issue](https://github.com/Zheng-Bote/repo-template/issues) [Request Feature](https://github.com/Zheng-Bote/repo-template/pulls)
+[Report Issue](https://github.com/Zheng-Bote/rz-breadcrumbs/issues) [Request Feature](https://github.com/Zheng-Bote/rz-breadcrumbs/pulls)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-![GitHub Created At](https://img.shields.io/github/created-at/Zheng-Bote/repo-template)
+![GitHub Created At](https://img.shields.io/github/created-at/Zheng-Bote/rz-breadcrumbs)
 
 </div>
 
@@ -14,10 +14,11 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 **Table of Contents**
 
 - [Description](#description)
-    - [Features](#features)
+  - [Features](#features)
   - [Status](#status)
     - [Repo](#repo)
     - [Readme](#readme)
@@ -54,16 +55,14 @@
 
 # Description
 
-![GHA](https://img.shields.io/badge/Github-Action-black?logo=githubactions)
-![Node](https://img.shields.io/badge/Node-20-blue?logo=tsnode)
-
-Repo template with README-template and some Github workflows and Github actions.
+A Web Component for automatic Breadcrumbs.
 
 ### Features
 
 - \[x] MIT license
 - \[x] works as designed
 - \[ ] no bugs
+- \[x] plain Vanilla
 - \[x] some more or less usefull Github Actions
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -73,21 +72,21 @@ Repo template with README-template and some Github workflows and Github actions.
 ### Repo
 
 ![Status](https://img.shields.io/badge/Status-works-green)
-![GitHub Release Date](https://img.shields.io/github/release-date/Zheng-Bote/repo-template)
+![GitHub Release Date](https://img.shields.io/github/release-date/Zheng-Bote/rz-breadcrumbs)
 
-![GitHub Issues](https://img.shields.io/github/issues/Zheng-Bote/repo-template)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Zheng-Bote/repo-template)
+![GitHub Issues](https://img.shields.io/github/issues/Zheng-Bote/rz-breadcrumbs)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Zheng-Bote/rz-breadcrumbs)
 
 ### Readme
 
-[![Repo - create Repo-Tree in README.md](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_tree_readme.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_tree_readme.yml)
-[![Repo - add Actions In/Out to README](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-actions_docu.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-actions_docu.yml)
+[![Repo - create Repo-Tree in README.md](https://github.com/Zheng-Bote/rz-breadcrumbs/actions/workflows/repo-create_tree_readme.yml/badge.svg)](https://github.com/Zheng-Bote/rz-breadcrumbs/actions/workflows/repo-create_tree_readme.yml)
+[![Repo - add Actions In/Out to README](https://github.com/Zheng-Bote/rz-breadcrumbs/actions/workflows/repo-actions_docu.yml/badge.svg)](https://github.com/Zheng-Bote/rz-breadcrumbs/actions/workflows/repo-actions_docu.yml)
 
-[![Repo - update Readme](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-call_Readme.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-call_Readme.yml)
+[![Repo - update Readme](https://github.com/Zheng-Bote/rz-breadcrumbs/actions/workflows/repo-call_Readme.yml/badge.svg)](https://github.com/Zheng-Bote/rz-breadcrumbs/actions/workflows/repo-call_Readme.yml)
 
 ### Markdown files
 
-[![Repo - create TOC of Markdown files](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_doctoc_md.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_doctoc_md.yml)
+[![Repo - create TOC of Markdown files](https://github.com/Zheng-Bote/rz-breadcrumbs/actions/workflows/repo-create_doctoc_md.yml/badge.svg)](https://github.com/Zheng-Bote/rz-breadcrumbs/actions/workflows/repo-create_doctoc_md.yml)
 
 create ToC in Markdown files in folders
 
@@ -109,6 +108,7 @@ bla bla ... with a little help from my friends
 ## folder structure
 
 <!-- readme-tree start -->
+
 ```
 .
 ├── .github
@@ -137,6 +137,7 @@ bla bla ... with a little help from my friends
 
 5 directories, 18 files
 ```
+
 <!-- readme-tree end -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -298,12 +299,6 @@ pie title me
 
 ## License
 
-**_other licenses see files `LICENSE_<name>`\_**
-
-### MIT License
-
-**This Repo-Template is using the MIT-License**
-
 MIT License
 
 Copyright (c) 2024 ZHENG Robert
@@ -328,25 +323,13 @@ SOFTWARE.
 
         https://choosealicense.com/licenses/mit/
 
-### Apache License
-
-Apache License, Version 2.0
-
-Copyright (c) \[year] \[fullname]
-
-The 2.0 version of the Apache License, approved by the ASF in 2004, helps us achieve our goal of providing reliable and long-lived software products through collaborative, open-source software development.
-
-All packages produced by the ASF are implicitly licensed under the Apache License, Version 2.0, unless otherwise explicitly stated.
-
-        https://www.apache.org/licenses/LICENSE-2.0
-
 ## Authors
 
 - [![Zheng Robert](https://img.shields.io/badge/Github-Zheng_Robert-black?logo=github)](https://www.github.com/Zheng-Bote)
 
 ### Code Contributors
 
-![Contributors](https://img.shields.io/github/contributors/Zheng-Bote/repo-template?color=dark-green)
+![Contributors](https://img.shields.io/github/contributors/Zheng-Bote/rz-breadcrumbs?color=dark-green)
 
 [![Zheng Robert](https://img.shields.io/badge/Github-Zheng_Robert-black?logo=github)](https://www.github.com/Zheng-Bote)
 
