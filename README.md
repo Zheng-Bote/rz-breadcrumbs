@@ -125,9 +125,24 @@ modern browser with enabled Javascript
 │       └── repo-create_tree_readme.yml
 ├── LICENSE
 ├── README.md
-└── tree.bak
+├── assets
+│   ├── css
+│   │   └── rz-breadcrumbs.css
+│   ├── img
+│   │   └── screenshot_20240914_rz-breadcrumbs.png
+│   └── js
+│       └── rz-breadcrumbs.js
+├── favicon.ico
+├── index.html
+├── tree.bak
+└── urltest1
+    ├── index.html
+    └── urltest2
+        ├── index.html
+        └── urltest3
+            └── index.html
 
-5 directories, 14 files
+12 directories, 22 files
 ```
 <!-- readme-tree end -->
 
