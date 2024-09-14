@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <title>rz-breadcrumbs</title>
+    <link
+      href="/assets/css/rz-breadcrumbs.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="/assets/js/rz-breadcrumbs.js"></script>
+
+    <style>
+      :root {
+        --font-family: "Inter", -apple-system, BlinkMacSystemFont, Roboto,
+          Ubuntu, "Segeo UI", "Helvetica Neue", Arial, sans-serif;
+
+        --font-color: oklch(0% 0 0);
+        --font-color-invert: oklch(100% 0 0);
+        --font-size-small-dynamic: clamp(0.6rem, 0.7rem, 0.8rem);
+      }
+      *,
+      *:before,
+      *:after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        font-family: var(--font-family);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+        font-size: 16px;
+        color: var(--font-color);
+
+        scroll-behavior: smooth;
+      }
+
+      body {
+        min-height: 100vh;
+      }
+      header {
+        background-color: grey;
+        width: 100%;
+        height: auto;
+      }
+      .nav_menu {
+        display: flex;
+        align-items: center;
+        padding: 10;
+      }
+      article {
+        margin: 10;
+      }
+      footer {
+        background-color: grey;
+        color: var(--font-color-invert);
+        padding: 5px;
+        font-size: var(--font-size-small-dynamic);
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="nav_menu">
+        <h1>rz-breadcrumbs</h1>
+      </div>
+      <rz-breadcrumbs></rz-breadcrumbs>
+    </header>
+    <article>
+      <a href="/urltest1/">urltest1</a>
+      <br />
+      <a href="/urltest1/urltest2/">urltest2</a>
+      <br />
+      <a href="/urltest1/urltest2/urltest3/">urltest3</a>
+    </article>
+
+    <footer>
+      <div class="footer_item">&copy; 2024 ZHENG Robert v1.0.0</div>
+    </footer>
+  </body>
+</html>
